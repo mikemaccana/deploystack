@@ -102,6 +102,19 @@ $bigger-font: 16px;
   }
 }
 
+// Ghost button
+.btn-ghost {
+  background: transparent;
+  border: 2px solid $white;
+  transition-timing-function: ease-in-out;
+  transition-duration: 80ms;
+
+  &:hover {
+    background-color: $orange;
+    border-color: $orange;
+  }
+}
+
 // General rules - for each website //////////////////////////////////////////
 p {
   font-size: $bigger-font;
